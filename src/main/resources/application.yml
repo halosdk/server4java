@@ -1,0 +1,16 @@
+
+
+sdk:
+  domain: http://192.168.10.202:8861
+  secretKey: WkYe28Hlu0N1n6YRx/pWww==
+  iv: TDuZJVSOiSrXMbdsYGU03w==
+
+server:
+  port: 8889
+
+
+swagger:
+  enabled: true
+spring:
+  profiles:
+    active: dev

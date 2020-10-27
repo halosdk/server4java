@@ -1,0 +1,23 @@
+spring:
+  jackson:
+    default-property-inclusion: non_null
+    serialization:
+      write-dates-as-timestamps: true
+
+sdk:
+  domain: https://open-api.hailuo.pro
+  secretKey: KDuTsWeAikOFbO+P70CE7A==
+  iv: XMZfdmCi6G92KwDj+TjOdQ==
+partner:
+  domain:
+  secretKey:
+  iv:
+server:
+  port: 8889
+
+
+swagger:
+  enabled: true
+
+logging:
+  file: /home/lxtx/logs/hello/hello-sdk-demo/hello-sdk-demo
